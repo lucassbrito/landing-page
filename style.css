@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.container-menu {
+    background: url(./assets/288957-fernanda-entregar-ate-dia\ 2.png) no-repeat;
+    width: 1440px;
+    height: 823px;
+}
+
+header {
+    padding: 20px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+nav a {
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+nav a:hover {
+    font-weight: 900;
+    transition: 0.2s;
+}
+
+.conteudo-main {
+    display: inline-block;
+    margin: 300px 100px 100px 80px;
+}
+
+h1 {
+    font-size: 58px;
+}
+
+p {
+    font-size: 20px;
+}
+
+form{
+    display: inline-block;
+    width: 446px;
+    height: 596px;
+    background: #ffffff;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+form label {
+    color: #252b42;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+form h3 {
+    font-size: 24px;
+    color: #252b42;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    display: block;
+
+}
+
+form input {
+    display: block;
+    margin-bottom: 30px;
+    width: 356px;
+    height: 50px;
+    padding-left: 15px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: #f0efef;
+    outline: none;
+}
+
+textarea {
+    width: 356px;
+    height: 120px;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: black;
+    border-radius: 5px;
+    background: #f0efef;
+    outline: none;
+}
+
+button {
+    background: #40BB15;
+    width: Fill (366px)px;
+    height: 50px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    border: 1px solid #40BB15;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    width: 356px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+
+
+
