@@ -2,31 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
     font-family: "Montserrat", sans-serif;
 }
 
-body {
-    width: 100%;
-}
-
 .container-menu {
-    background: url(./assets/288957-fernanda-entregar-ate-dia\ 2.png) no-repeat;
-    width: 1440px;
-    height: 823px;
+    background-image: url(./assets/288957-fernanda-entregar-ate-dia\ 2.png);
+    background-size: cover;
+    height: 100vh;
 }
 
+/* MENU DE NAVEGAÇÃO */
 header {
+    display: flex;
+    justify-content: start;
     padding: 20px;
-}
-
-h3 {
-    display: inline-block;
+    color: #ffffff;
 }
 
 nav {
-    display: inline-block;
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 nav a {
@@ -39,83 +33,73 @@ nav a:hover {
     transition: 0.2s;
 }
 
-.conteudo-main {
-    display: inline-block;
-    margin: 300px 100px 100px 80px;
+/* FECHANDO MENU DE NAVEGAÇÃO */
+
+/* CONTEUDO PRINCIAPAL */
+.conteudo-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
 }
 
-h1 {
-    font-size: 58px;
+/* ESQUERDA */
+
+.conteudo-principal h1 {
+    font-size: 3rem;
 }
 
-p {
-    font-size: 20px;
+.conteudo-principal p {
+    font-size: 1rem;
 }
 
-form{
-    display: inline-block;
-    width: 446px;
-    height: 596px;
+/* FORM */
+
+form {
     background: #ffffff;
-    position: absolute;
-    top: 20%;
-    right: 5%;
-    padding: 40px;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
     border-radius: 5px;
 }
 
-form label {
-    color: #252b42;
-    display: block;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 5px;
-
+.form label,
+h3 {
+    color: #000000;
 }
 
 form h3 {
-    font-size: 24px;
-    color: #252b42;
-    margin-left: 80px;
-    margin-bottom: 40px;
-    display: block;
-
+    font-size: 20px;
+    text-align: center;
 }
 
-form input {
+label {
+    margin-top: 25px;
     display: block;
-    margin-bottom: 30px;
-    width: 356px;
-    height: 50px;
-    padding-left: 15px;
-    color: black;
+}
+
+form input,
+button,
+textarea {
+    width: 260px;
+    height: 40px;
     border-radius: 5px;
-    border: 1px solid black;
-    background: #f0efef;
     outline: none;
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    color: #000000;
+    background: #e6e6e6;
 }
 
 textarea {
-    width: 356px;
-    height: 120px;
-    padding: 15px;
-    margin-bottom: 25px;
-    color: black;
-    border-radius: 5px;
-    background: #f0efef;
-    outline: none;
+    height: 100px;
 }
 
 button {
     background: #40BB15;
-    width: Fill (366px)px;
-    height: 50px;
-    padding: 15px 40px 15px 40px;
-    border-radius: 5px;
-    border: 1px solid #40BB15;
-    box-shadow: 0px 4px 4px 0px #00000040;
-    width: 356px;
+    color: #ffffff;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 button:hover {
@@ -126,6 +110,47 @@ button:active {
     opacity: 0.7;
 }
 
+/* FIM CONTEUDO PRINCIPAL */
 
+div.container2 {
+    color: #000000;
+    text-align: center;
+    margin-top: 70px;
+}
 
+.div-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
 
+.titulo-card {
+    background: #737373;
+    line-height: 60px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+}
+
+.cards {
+    border: 1px solid #e6e6e6;
+    width: 328px;
+    height: 308px;
+    border-radius: 10px;
+}
+
+.cards p {
+    padding: 20px;
+}
+
+.sobre-nos {
+    background: #737373;
+    color: #ffffff;
+    line-height: 25px;
+    padding: 50px;
+    margin-top: 130px;
+}
+
+.sobre-nos p {
+    margin-top: 25px;
+}

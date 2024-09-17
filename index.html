@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Landing Page</title>
 </head>
+
 <body>
-    <div class="container-menu">      
-        <div>
+    <div class="container-principal">
+
+        <div class="container-menu">
             <header>
-                <h3>D&C Advogados</h3>
+                <h4>D&C Advogados</h4>
 
                 <nav>
                     <a>Home</a>
@@ -23,29 +27,103 @@
                 </nav>
             </header>
 
-            <section>
-                <div class="conteudo-main">
+            <section class="conteudo-principal">
+                <div>
                     <h1>D&C Advogados</h1>
                     <p>Que a justiça seja feita, e vamos garantir que seja!</p>
                 </div>
 
                 <div class="form">
-                    <form>
+                    <form action="https://formsubmit.co/lucassantanadebrito@hotmail.com" method="POST">
                         <h3>Entre em contato</h3>
-                        <label>Nome</label>
-                        <input type="text" placeholder="Seu nome">
+                        <label>Nome
+                            <input name="nome" type="text" required placeholder="Seu nome">
+                        </label>
 
-                        <label>Email</label>
-                        <input type="email" placeholder="Seu email">
+                        <label>Email
+                            <input name="email" type="email" required placeholder="seuemailaqui@gmail.com">
+                        </label>
 
-                        <label>Fale conosco</label>
-                        <textarea placeholder="Sua dúvida aqui"></textarea>
+                        <label>Fale conosco
+                            <textarea name="informação" placeholder="Sua dúvida aqui"></textarea>
+                        </label>
 
-                        <button type="submit" rows="8">Enviar</button>
+                        <button type="submit">Enviar</button>
                     </form>
                 </div>
             </section>
         </div>
+
+        <div class="container2">
+
+            <div class="serviços">
+                <div class="div-titulo">
+                    <h1>Nossos Serviços</h1>
+                </div>
+                <div class="div-cards">
+                    <div class="cards">
+                        <h5 class="titulo-card">Cível</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Aut tempora animi repellat ut
+                            consequatur possimus autem, explicabo nam excepturi earum inventore
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Aut tempora animi repellat ut
+                            consequatur possimus autem, explicabo nam excepturi earum inventore</p>
+                    </div>
+
+                    <div class="cards">
+                        <h5 class="titulo-card">Criminal</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Aut tempora animi repellat ut
+                            consequatur possimus autem, explicabo nam excepturi earum inventore
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Aut tempora animi repellat ut
+                            consequatur possimus autem, explicabo nam excepturi earum inventore</p>
+                    </div>
+
+                    <div class="cards">
+                        <h5 class="titulo-card">Trabalhista</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Aut tempora animi repellat ut
+                            consequatur possimus autem, explicabo nam excepturi earum inventore
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Aut tempora animi repellat ut
+                            consequatur possimus autem, explicabo nam excepturi earum inventore</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="sobre-nos">
+                <h1>Sobre Nós</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error ipsum illo id. Beatae unde sequi,
+                    autem eveniet perferendis id quae expedita eligendi officia facilis in enim suscipit modi
+                    quaerat
+                    cumque.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempore labore veniam
+                    nisi
+                    quae qui laboriosam cumque laborum cum, ex, fuga ipsa quas rerum excepturi? Doloremque dolorem
+                    perspiciatis ad placeat.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error ipsum illo id. Beatae unde sequi,
+                    autem eveniet perferendis id quae expedita eligendi officia facilis in enim suscipit modi
+                    quaerat
+                    cumque.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempore labore veniam
+                    nisi
+                    quae qui laboriosam cumque laborum cum, ex, fuga ipsa quas rerum excepturi? Doloremque dolorem
+                    perspiciatis ad placeat.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error ipsum illo id. Beatae unde sequi,
+                    autem eveniet perferendis id quae expedita eligendi officia facilis in enim suscipit modi
+                    quaerat
+                    cumque.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempore labore veniam
+                    nisi
+                    quae qui laboriosam cumque laborum cum, ex, fuga ipsa quas rerum excepturi? Doloremque dolorem
+                    perspiciatis ad placeat.</p>
+            </div>
+
+
+        </div>
+
     </div>
 </body>
+
 </html>
