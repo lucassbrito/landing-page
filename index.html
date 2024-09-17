@@ -20,10 +20,10 @@
                 <h4>D&C Advogados</h4>
 
                 <nav>
-                    <a>Home</a>
-                    <a>Quem somos</a>
+                    <a onclick="home()">Home</a>
+                    <a onclick="quemSomos()">Quem somos</a>
                     <a>Serviços</a>
-                    <a>Contato</a>
+                    <a onclick="mudarClasse()">Contato</a>
                 </nav>
             </header>
 
@@ -63,30 +63,30 @@
                 <div class="div-cards">
                     <div class="cards">
                         <h5 class="titulo-card">Cível</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             Aut tempora animi repellat ut
                             consequatur possimus autem, explicabo nam excepturi earum inventore
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             Aut tempora animi repellat ut
                             consequatur possimus autem, explicabo nam excepturi earum inventore</p>
                     </div>
 
                     <div class="cards">
                         <h5 class="titulo-card">Criminal</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             Aut tempora animi repellat ut
                             consequatur possimus autem, explicabo nam excepturi earum inventore
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             Aut tempora animi repellat ut
                             consequatur possimus autem, explicabo nam excepturi earum inventore</p>
                     </div>
 
                     <div class="cards">
                         <h5 class="titulo-card">Trabalhista</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             Aut tempora animi repellat ut
                             consequatur possimus autem, explicabo nam excepturi earum inventore
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             Aut tempora animi repellat ut
                             consequatur possimus autem, explicabo nam excepturi earum inventore</p>
                     </div>
@@ -125,5 +125,26 @@
 
     </div>
 </body>
+
+<script>
+
+    const chamarFormulario = document.getElementsByTagName('form')[0]
+
+    mudarClasse = () => {
+        chamarFormulario.className = 'mudarClasse'
+    }
+
+    home = () => {
+        window.location = './index.html'
+    }
+    
+    quemSomos = () => {
+        const quemsomos = document.getElementsByClassName('sobre-nos')[0]
+        window.location = ''
+    }
+
+
+
+</script>
 
 </html>
